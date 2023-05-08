@@ -1,0 +1,75 @@
+.select {
+    margin: 10px 50px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+    padding: 10px 0;
+    width: 500px;
+    background-color: aliceblue;
+    border-style: solid;
+    border-color: #436DFA;
+    border-radius: 10px;
+}
+.cont {
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.btnCont {
+    display: flex;
+    justify-content: space-around;
+}
+
+.dateCont{
+    display: flex;
+    justify-content: center;
+    margin: 10px 50px 0;
+}
+
+.btn {
+    padding: 5px 10px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    height: 60px;
+    width: 150px;
+    font-size: 20px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    margin: 10px 0;
+    background-color: #FFF;
+}
+.accept:hover {
+    background-color: #47FF86;
+}
+
+.accept {
+    border-style: solid;
+    border-color: #47FF86;
+}
+
+.reset:hover {
+    background-color: #436DFA;
+}
+
+.input{
+    min-height: 25px;
+    padding: 5px 10px;
+    outline: none;
+    transition: border-color .4s ease;
+    border: 1px solid transparent;
+    margin-bottom: 10px;
+    resize: none;
+}
+
+input:focus{
+    border-color: #436DFA;
+}
+
+.date {
+    background-color: #FFFFFF;
+}
