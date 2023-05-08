@@ -26,9 +26,11 @@ export const Form = () => {
         setData(clearData)
     }
 
+
     return(
         <div className={styles.cont}>
             <form className={styles.form}>
+                <p>Бронирование переговорной</p>
                 <Select value={data.tower ? towerOptions.find(c => c.value === data.tower) : null} className={styles.select} placeholder='Башня' options={towerOptions} onChange={opt => setData(prev => ({...prev, tower: opt.value}))}/>
                 <Select value={data.floor ? towerOptions.find(c => c.value === data.floor) : null} className={styles.select} placeholder='Этаж' options={floorOptions} onChange={opt => setData(prev => ({...prev, floor: opt.value}))}/>
                 <Select value={data.room ? towerOptions.find(c => c.value === data.room) : null} className={styles.select} placeholder='Переговорная' options={roomOptions} onChange={opt => setData(prev => ({...prev, room: opt.value}))}/>

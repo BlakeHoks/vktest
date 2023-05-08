@@ -73,3 +73,7 @@ input:focus{
 .date {
     background-color: #FFFFFF;
 }
+p {
+    font-size: 20px;
+    text-align: center;
+}
